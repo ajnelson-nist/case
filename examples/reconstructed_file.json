@@ -1,6 +1,8 @@
 {
   "@context": {
     "@vocab": "http://case.example.org/core#",
+    "NOTE": "http://case.example.org/NOTE#",
+    "TODO": "http://case.example.org/TODO#",
     "olo": "http://purl.org/ontology/olo/core#",
     "acme": "http://custompb.acme.org/core#"
   },
@@ -187,11 +189,12 @@
         ]
     },
 
-    // TODO: Determine if it's better to group objects together using provenance records
-    // or to have a provenance record for each object.
     {
       "@id": "forensic_action1",
       "@type": "ForensicAction",
+
+      "TODO:provenance": "Determine if it's better to group objects together using provenance records or to have a provenance record for each object.",
+
       "name": "carved",
       "startTime": "2010-01-20T17:59:43.25Z",
       "endTime": "2010-01-21T17:59:43.25Z",
@@ -215,9 +218,11 @@
       "@id": "forensic_action2",
       "@type": "ForensicAction",
       "name": "reconstructed",
-      // Start and end times are the same as forensic_action1 because this action was part of the same action that performed the carving.
+
+      "NOTE:times": "Start and end times are the same as forensic_action1 because this action was part of the same action that performed the carving.",
       "startTime": "2010-01-20T17:59:43.25Z",
       "endTime": "2010-01-21T17:59:43.25Z",
+
       "propertyBundle": [
         {
           "@type": "ActionReferences",

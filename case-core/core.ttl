@@ -1,0 +1,32 @@
+# imports: https://unifiedcyberontology.org/ontology/uco/core
+
+@prefix case-core: <https://caseontology.org/ontology/case/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix uco-core: <https://unifiedcyberontology.org/ontology/uco/core#> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://caseontology.org/ontology/case/core>
+	a owl:Ontology ;
+	rdfs:label "case-core"@en ;
+	owl:imports <https://unifiedcyberontology.org/ontology/uco/core> ;
+	.
+
+case-core:PropertyBundle
+	a owl:Class ;
+	rdfs:comment "A grouping of properties characterizing a particular aspect/facet of an object."@en ;
+	owl:equivalentClass uco-core:Facet ;
+	.
+
+case-core:Trace
+	a owl:Class ;
+	owl:equivalentClass uco-core:UcoObject ;
+	.
+
+case-core:propertyBundle
+	a owl:ObjectProperty ;
+	owl:equivalentProperty uco-core:facet ;
+	.
+

@@ -1,4 +1,5 @@
 # imports: https://caseontology.org/ontology/case/core
+# imports: https://unifiedcyberontology.org/ontology/uco/uco
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -11,6 +12,7 @@
 	rdfs:label "case-master"@en ;
 	dc:title "Cyber-investigation Analysis Schema Expression (CASE)" ;
 	owl:imports <https://caseontology.org/ontology/case/core> ;
+	owl:imports <https://unifiedcyberontology.org/ontology/uco/uco> ;
 	owl:priorVersion "0.1" ;
 	owl:versionInfo "0.2.0" ;
 	.

@@ -1,5 +1,7 @@
+# baseURI: https://caseontology.org/ontology/case/core
 # imports: https://unifiedcyberontology.org/ontology/uco/core
 
+@base <https://caseontology.org/ontology/case/core> .
 @prefix case-core: <https://caseontology.org/ontology/case/core#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .

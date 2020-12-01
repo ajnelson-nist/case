@@ -27,6 +27,7 @@ all:
 	  --target-format turtle
 	mv _$@ $@
 
+# This uniform test procedure is documented in /Makefile.
 check: \
   .check-vocabulary.ttl
 	diff vocabulary.ttl .check-vocabulary.ttl

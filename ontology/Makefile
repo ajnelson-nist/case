@@ -23,6 +23,7 @@ top_srcdir := ..
   clean-master \
   clean-vocabulary
 
+# The uniform test procedure is documented in /Makefile.
 check: \
   check-master \
   check-investigation \

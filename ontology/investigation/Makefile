@@ -39,6 +39,7 @@ all:
 	  --target-format turtle
 	mv _$@ $@
 
+# This uniform test procedure is documented in /Makefile.
 check: \
   .check-investigation.ttl \
   .check-investigation-da.ttl

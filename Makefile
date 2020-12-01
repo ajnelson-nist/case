@@ -18,6 +18,17 @@ all:
 	  --directory lib
 	touch $@
 
+# STORY: Each ontology file (/ontology/*.ttl) needs to be confirmed
+#        to have been committed in normalized form, via the directions
+#        specified in /NORMALIZING.md.
+#
+# GIVEN: Normalization software is downloaded, via directions in the
+#        /lib directory;
+# WHEN:  A user edits an ontology file;
+# THEN:  The edited ontology file is run through the normalization
+#        process to check syntax and apply formatting, creating an
+#        exemplar file for comparing against the edited file.
+#        Any differences are reported as an error.
 check: \
   .lib.done.log
 	$(MAKE) \

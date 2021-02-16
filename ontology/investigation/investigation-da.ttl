@@ -13,7 +13,7 @@
 	owl:imports <http://dev.caseontology.org/ontology/case/investigation/0.2.1> ;
 	owl:ontologyIRI <https://caseontology.org/ontology/case/investigation-da> ;
 	owl:versionIRI <http://dev.caseontology.org/ontology/case/investigation-da/0.2.1> ;
-
+	owl:versionInfo "0.2.1" ;
 	.
 
 investigation:authorizationIdentifier

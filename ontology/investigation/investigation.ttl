@@ -25,6 +25,7 @@
 		;
 	owl:ontologyIRI <https://caseontology.org/ontology/case/investigation> ;
 	owl:versionIRI <http://dev.caseontology.org/ontology/case/investigation/0.2.1> ;
+	owl:versionInfo "0.2.1" ;
 	.
 
 investigation:Attorney

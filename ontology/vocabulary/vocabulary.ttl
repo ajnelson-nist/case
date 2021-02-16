@@ -12,6 +12,7 @@
 	rdfs:label "vocabulary"@en ;
 	owl:ontologyIRI <https://caseontology.org/ontology/case/vocabulary> ;
 	owl:versionIRI <http://dev.caseontology.org/ontology/case/vocabulary/0.2.1> ;
+	owl:versionInfo "0.2.1" ;
 	.
 
 vocabulary:InvestigationFormVocab

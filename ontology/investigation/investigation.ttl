@@ -192,7 +192,7 @@ investigation:investigationForm
 	a owl:DatatypeProperty ;
 	rdfs:label "investigationForm"@en ;
 	rdfs:comment "A label categorizing a type of investigation (case, incident, suspicious-activity, etc.)"@en ;
-	rdfs:range <https://caseontology.org/ontology/case/vocabulary#InvestigationFormVocab> ;
+	rdfs:range vocabulary:InvestigationFormVocab ;
 	.
 
 investigation:investigationStatus
